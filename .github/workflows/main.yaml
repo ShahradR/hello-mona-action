@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Hello World action step
         id: hello
-        uses: ShahradR/hello-world-docker-action@v1
+        uses: ShahradR/hello-world-docker-action@v1.1
         with:
           who-to-greet: "Mona the Octocat"
       # Use the output from the `hello` step
